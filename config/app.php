@@ -1,5 +1,7 @@
 <?php
 
+use snw\ComingSoon\ComingSoonServiceProvider;
+
 return [
 
     /*
@@ -175,6 +177,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        ComingSoonServiceProvider::class,
     ],
 
     /*

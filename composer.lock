@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "6adba0e90917eaee85b0006d66d1f31a",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1998,6 +1998,49 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "softnweb/laravel-coming-soon",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SoftNWeb/laravel-coming-soon.git",
+                "reference": "32a571f09cf3b45d0bec166f3998b45a6d584507"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SoftNWeb/laravel-coming-soon/zipball/32a571f09cf3b45d0bec166f3998b45a6d584507",
+                "reference": "32a571f09cf3b45d0bec166f3998b45a6d584507",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "softnweb\\laravel-coming-soon\\ComingSoonServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "softnweb\\laravel-coming-soon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Soft 'n' Web",
+                    "email": "info@softnweb.in"
+                }
+            ],
+            "description": "Simple Comming Soon page",
+            "keywords": [
+                "coming-soon"
+            ],
+            "time": "2018-08-31T06:34:29+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
