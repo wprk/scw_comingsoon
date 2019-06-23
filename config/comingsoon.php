@@ -11,9 +11,9 @@ return [
     'snw_minutes' => env('OFFLINE_MINUTES','1'),
     'snw_seconds' => env ('OFFLINE_SECONDS','0'),
 
-    'snw_facebook' => env ('OFFLINE_FACEBOOK','https://www.facebook.com/softnweb'),
-    'snw_twitter' => env ('OFFLINE_TWITTER','https://twitter.com/'),
-    'snw_instagram' => env ('OFFLINE_INSTAGRAM','https://www.instagram.com'),
-    'snw_github' => env ('OFFLINE_GITHUB','https://github.com/'),
-    'snw_mail' => env ('OFFLINE_MAIL','info@mail.com')
+    'snw_facebook' => env ('OFFLINE_FACEBOOK'),
+    'snw_twitter' => env ('OFFLINE_TWITTER'),
+    'snw_instagram' => env ('OFFLINE_INSTAGRAM'),
+    'snw_github' => env ('OFFLINE_GITHUB'),
+    'snw_mail' => env ('OFFLINE_MAIL')
 ];
