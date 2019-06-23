@@ -27,17 +27,9 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "extra": {
-        "laravel": {
-            "dont-discover": [
-                "softnweb/laravel-coming-soon"
-            ]
-        }
-    },
     "autoload": {
         "psr-4": {
-            "App\\": "app/",
-            "snw\\ComingSoon\\": "vendor\\softnweb\\laravel-coming-soon\\"
+            "App\\": "app/"
         },
         "classmap": [
             "database/seeds",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6adba0e90917eaee85b0006d66d1f31a",
+    "content-hash": "68bebc61bf7da39f259f75f12aea1b1b",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2001,29 +2001,29 @@
         },
         {
             "name": "softnweb/laravel-coming-soon",
-            "version": "1.0",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SoftNWeb/laravel-coming-soon.git",
-                "reference": "32a571f09cf3b45d0bec166f3998b45a6d584507"
+                "reference": "eef6242726b562d7bb9c13f069345980c3477aac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SoftNWeb/laravel-coming-soon/zipball/32a571f09cf3b45d0bec166f3998b45a6d584507",
-                "reference": "32a571f09cf3b45d0bec166f3998b45a6d584507",
+                "url": "https://api.github.com/repos/SoftNWeb/laravel-coming-soon/zipball/eef6242726b562d7bb9c13f069345980c3477aac",
+                "reference": "eef6242726b562d7bb9c13f069345980c3477aac",
                 "shasum": ""
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "softnweb\\laravel-coming-soon\\ComingSoonServiceProvider"
+                        "Softnweb\\ComingSoon\\ComingSoonServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "softnweb\\laravel-coming-soon\\": "src/"
+                    "Softnweb\\ComingSoon\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2040,7 +2040,7 @@
             "keywords": [
                 "coming-soon"
             ],
-            "time": "2018-08-31T06:34:29+00:00"
+            "time": "2019-06-04T08:27:27+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
